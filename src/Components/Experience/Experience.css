@@ -1,0 +1,81 @@
+
+
+.experience{
+    background-color: transparent;
+    /* width: 50%; */
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    box-sizing: border-box !important;
+    background-color: var(--black);
+    
+}
+
+
+.experience .row{
+    box-sizing: border-box !important;
+    margin-right: 0 !important ;
+    align-items: start;
+    justify-content: start;
+    background-color: var(--black);
+}
+.experience .col-md-6{
+    box-sizing: border-box !important;
+    margin-right: 0 !important ;
+    display: flexbox;
+    align-items: start;
+    justify-content: start;
+    
+}
+
+
+.experience-title{
+    font-size: 5vmin;
+    font-weight: 600;
+    color: var(--teal) !important;
+    margin-bottom: 0.5vh;
+    letter-spacing: 0.1rem;
+    display: block;
+    position: relative;
+
+    /* justify-content: start; */
+}
+
+.experience-title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30vw;
+    height: 1px;
+    background-color: var(--gray);
+    
+}
+
+.experience .card{
+    margin-top: 2vh;
+    background-color: var(--black);
+    border: var(--gray) 1px solid;
+    box-shadow: none;
+}
+
+/* .experience .card .card-body{
+    padding: 0;
+} */
+
+.experience .card .card-body .card-title{
+    font-size: 3.5vmin;
+    font-weight: 600;
+    /* width: 70vw !important; */
+    color: #fff !important;
+}
+
+.experience .card .card-body .card-subtitle{
+    font-size: 2.5vmin;
+    font-weight: 600;
+    /* width: 70vw !important; */
+    color: var(--gray) !important;
+}

@@ -1,0 +1,29 @@
+/* :root{
+    --teal : #30c0c0;
+    --gray : #b3b3b3;
+} */
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: bolder;
+    color: var(--teal) !important;
+    letter-spacing: 0.1rem;
+    
+}
+.nav-item  a{
+    font-size: 1.2rem !important;
+    font-weight: 600;   
+    color: var(--gray) !important;
+    letter-spacing: 0.1rem;
+}
+
+.nav-item button{
+    font-size: 1.2rem !important;
+    font-weight: 600;   
+    color: var(--teal) !important;
+    border: 1px solid var(--teal) !important;
+    border-radius: 0.5rem !important;
+    letter-spacing: 0.1rem;
+    margin-top: 0.4rem;
+
+}

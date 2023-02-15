@@ -1,0 +1,36 @@
+:root{
+    --teal : #30c0c0;
+    --gray : #b3b3b3;
+}
+ 
+.icons-container{
+    /* center */
+    display: flex;
+    justify-content: center;
+
+} 
+.icons-container .icons{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.icons-container .icons li{
+    margin: 2vw 1vh;
+    display: inline;
+
+}
+
+.icons-container .icons li a{
+    font-size: 5vmin;
+}
+/* 
+.icons-container .icons::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 20vh;
+    background-color: var(--gray);
+    margin: 0 auto;
+} */

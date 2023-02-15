@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: start center;
+    margin-top: 15vh;
+    /* vertical-align: top !important; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+.home .hi-text {
+    font-size: 5vmin;
+    font-weight: 600;
+    color: var(--teal) !important;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+.home .name-text {
+    font-size: 14vmin;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+    
+.home .job-text {
+    font-size: 7vmin;
+    font-weight: 600;
+    color: var(--gray) !important;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.home .more-btn {
+    font-size: 4vmin;
+    font-weight: 600;
+    color: var(--teal) !important;
+    border: 1px solid var(--teal) !important;
+    border-radius: 0.5rem !important;
+    letter-spacing: 0.1rem;
+    margin-top: 3vh;
+    padding: 0.5rem 1rem;
+    
+}
+
+.home .more-btn:hover {
+    background-color: var(--teal) !important;
+    color: #fff !important;
+}
