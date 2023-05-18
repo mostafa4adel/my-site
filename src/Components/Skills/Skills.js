@@ -28,7 +28,7 @@ function Skills() {
             <div className='card-body'>
               <h5 className='card-title'>Frontend</h5>
               <h6 className='card-subtitle mb-2 text-muted'>
-                HTML, CSS, JavaScript, React.js, Bootstrap, PYQT5
+                HTML, CSS, JavaScript, React.js, Bootstrap
               </h6>
             </div>
           </div>
@@ -48,9 +48,9 @@ function Skills() {
         <div className='col-md-6 mt-3 mt-md-0'>
           <div className='card'>
             <div className='card-body'>
-              <h5 className='card-title'>Embaded Development</h5>
+              <h5 className='card-title'>Embedded Development</h5>
               <h6 className='card-subtitle mb-2 text-muted'>
-                Embaded C, AutoSar, ARM development, ROS
+                Embedded C, AutoSar, ARM development, ROS
               </h6>
             </div>
           </div>
